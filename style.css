@@ -7,11 +7,46 @@ body {
   font-family: system-ui, sans-serif;
   color: #222;
   background: #fafafa;
+  line-height: 1.5;
 }
 
-header, footer {
-  text-align: center;
-  padding: 2rem 1rem;
+header {
+  background: #1f3d2b;
+  color: #fff;
+  padding: 1.25rem 1rem;
+}
+
+.header-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+nav {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+nav a:hover {
+  opacity: 1;
+  text-decoration: underline;
 }
 
 main {
@@ -21,7 +56,54 @@ main {
 }
 
 section {
-  margin-bottom: 3rem;
+  margin-top: 3rem;
+  scroll-margin-top: 1rem;
+}
+
+section h2 {
+  border-bottom: 2px solid #1f3d2b;
+  display: inline-block;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.placeholder {
+  color: #444;
+}
+
+.founder-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.founder-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.founder-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.75rem;
+}
+
+.founder-card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+}
+
+.activity {
+  margin-bottom: 2.5rem;
+}
+
+.activity > p {
+  margin-bottom: 1rem;
 }
 
 .gallery {
@@ -37,16 +119,11 @@ section {
   border-radius: 8px;
 }
 
-.video-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
-}
-
 .video-wrapper {
   position: relative;
   display: block;
-  padding-bottom: 56.25%; /* 16:9 */
+  max-width: 480px;
+  padding-bottom: 27%; /* 16:9 scaled to max-width */
   height: 0;
   border-radius: 8px;
   overflow: hidden;
@@ -78,7 +155,23 @@ section {
   border-radius: 50%;
 }
 
+.deed-button {
+  display: inline-block;
+  background: #1f3d2b;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.7rem 1.4rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.deed-button:hover {
+  background: #16301f;
+}
+
 footer {
+  text-align: center;
   color: #888;
   font-size: 0.9rem;
+  padding: 2rem 1rem;
 }

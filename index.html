@@ -3,39 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Site</title>
+  <title>[Charity Name]</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
-    <h1>My Site</h1>
-    <p>Photos and videos I want to share.</p>
+    <div class="header-inner">
+      <h1>[Charity Name]</h1>
+      <nav>
+        <a href="#vision">Vision</a>
+        <a href="#founders">Founders</a>
+        <a href="#activities">Activities</a>
+        <a href="#deed">Trust Deed</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section id="photos">
-      <h2>Photos</h2>
-      <div class="gallery">
-        <img src="photos/photo1.jpeg" alt="Description of photo 1">
-        <img src="photos/photo2.jpeg" alt="Description of photo 2">
-        <img src="photos/photo3.jpeg" alt="Description of photo 3">
+
+    <section id="vision">
+      <h2>Our Vision</h2>
+      <p class="placeholder">
+        [Placeholder: State in 2-3 sentences what the charity exists to do — the change you want
+        to see in the world, and who it's for. Keep it concrete, not generic.]
+      </p>
+    </section>
+
+    <section id="founders">
+      <h2>Founders</h2>
+      <div class="founder-grid">
+        <div class="founder-card">
+          <img src="photos/founder1.jpg" alt="Founder name" class="founder-photo">
+          <h3>[Founder Name]</h3>
+          <p class="placeholder">[1-2 line bio: background and why they started this.]</p>
+        </div>
+        <div class="founder-card">
+          <img src="photos/founder2.jpg" alt="Founder name" class="founder-photo">
+          <h3>[Founder Name]</h3>
+          <p class="placeholder">[1-2 line bio: background and why they started this.]</p>
+        </div>
       </div>
     </section>
 
-    <section id="videos">
-      <h2>Videos</h2>
-      <div class="video-grid">
+    <section id="activities">
+      <h2>Activities</h2>
+
+      <div class="activity">
+        <p class="placeholder">
+          [Placeholder: Describe one activity/program — what it is, who it serves, roughly how
+          often it runs.]
+        </p>
+        <div class="gallery">
+          <img src="photos/photo1.jpeg" alt="Activity photo">
+          <img src="photos/photo2.jpeg" alt="Activity photo">
+          <img src="photos/photo3.jpeg" alt="Activity photo">
+        </div>
+      </div>
+
+      <div class="activity">
+        <p class="placeholder">
+          [Placeholder: Describe a second activity, or drop this block if there's only one.]
+        </p>
         <a class="video-wrapper" href="https://www.youtube.com/watch?v=xkBt4E5O1TE" target="_blank" rel="noopener">
           <img src="https://img.youtube.com/vi/xkBt4E5O1TE/hqdefault.jpg" alt="YouTube video thumbnail">
           <span class="play-button">&#9658;</span>
         </a>
       </div>
     </section>
+
+    <section id="deed">
+      <h2>Trust Deed</h2>
+      <p class="placeholder">
+        [Placeholder: One line noting this is the registered trust deed, for donors/partners who
+        need to verify our legal standing.]
+      </p>
+      <a class="deed-button" href="trust_deed/trust-deed.pdf" download>Download Trust Deed (PDF)</a>
+    </section>
+
   </main>
 
   <footer>
-    <p>&copy; 2026 My Site</p>
+    <p>&copy; 2026 [Charity Name]</p>
   </footer>
 
 </body>
