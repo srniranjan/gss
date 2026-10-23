@@ -1,4 +1,5 @@
 - name: "Dr. G. S. Palaksha"
+  founder: true
   photo: photos/members/01.jpeg
   details:
     - label: "Date of birth"
@@ -68,6 +69,7 @@
     - label: "Other"
       value: "Married with three children and two grandchildren. Interests: sports and reading novels."
 - name: "Sri M. G. Rudrappa Gowda"
+  founder: true
   photo: photos/members/03.jpeg
   details:
     - label: "Date of birth"
@@ -99,7 +101,7 @@
     - label: "Awards"
       value: "Best Engineer of the Year 1999, Saudi BinLaden Group, Saudi Arabia"
     - label: "Other service"
-      value: "President, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
+      value: "Joint Secretary, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
 - name: "Sri S. R. Basavarajappa"
   photo: photos/members/04.jpeg
   details:
@@ -122,8 +124,9 @@
     - label: "Awards"
       value: "Best Teacher Award, Department of High School Education"
     - label: "Other service"
-      value: "Served as an academic resource person for the Department of Education. Trained under the Government of India&rsquo;s Centre for Cultural Resources and Training. Served as President of the Kannada Sahitya Parishat, Honnali Taluk. Has lectured at many seminars. Serving as Vice-President of the executive committee of Guru Shishya Sangama Public Charitable Trust (R), Nyamathi."
+      value: "Served as an academic resource person for the Department of Education. Trained under the Government of India&rsquo;s Centre for Cultural Resources and Training. Served as President of the Kannada Sahitya Parishat, Honnali Taluk. Has lectured at many seminars."
 - name: "Sri B. M. Renukaiah"
+  founder: true
   photo: photos/members/05.jpeg
   details:
     - label: "Date of birth"
@@ -143,6 +146,7 @@
     - label: "Current role"
       value: "Secretary, Guru Shishya Sangama Public Charitable Trust, Nyamathi"
 - name: "Sri Shivappa Kodikoppa"
+  founder: true
   photo: photos/members/06.jpeg
   details:
     - label: "Date of birth"
@@ -164,6 +168,7 @@
     - label: "Other service"
       value: "Serving as Treasurer of the executive committee of Guru Shishya Sangama Public Charitable Trust (R), Nyamathi."
 - name: "Sri C. G. Marulasiddappa"
+  founder: true
   initials: CM
   details:
     - label: "Date of birth"
@@ -183,6 +188,7 @@
     - label: "Other service"
       value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
 - name: "Dr. S. Mallikarjunappa"
+  founder: true
   photo: photos/members/08.jpeg
   details:
     - label: "Date of birth"
@@ -204,6 +210,7 @@
     - label: "Other service"
       value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
 - name: "Sri K. Maheshwarappa"
+  founder: true
   photo: photos/members/09.jpeg
   details:
     - label: "Date of birth"
@@ -227,6 +234,7 @@
     - label: "Other service"
       value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
 - name: "Sri B. H. Manjappa"
+  founder: true
   photo: photos/members/10.jpeg
   details:
     - label: "Date of birth"
@@ -252,6 +260,7 @@
     - label: "Other service"
       value: "Srishaila Mallikarjuna Charitable Public Trust, Bidaragadde, Honnali<br>Guru Shishya Sangama Charitable Trust, Nyamathi"
 - name: "Sri M. Omkarappa"
+  founder: true
   photo: photos/members/11.jpeg
   details:
     - label: "Date of birth"
@@ -299,7 +308,8 @@
         </ul>
     - label: "Other service"
       value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
-- name: "Sri N. G. Parameshwarappa"
+- name: "Sri S. G. Parameshwarappa"
+  founder: true
   photo: photos/members/13.jpeg
   details:
     - label: "Date of birth"
@@ -319,6 +329,7 @@
     - label: "Other service"
       value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
 - name: "Sri G. Rajendra"
+  founder: true
   photo: photos/members/14.jpeg
   details:
     - label: "Date of birth"
@@ -336,8 +347,9 @@
     - label: "Position"
       value: "Class I contractor"
     - label: "Other service"
-      value: "Serving as Treasurer of the executive committee of Guru Shishya Sangama Public Charitable Trust (R), Nyamathi."
-- name: "Sri R. S. Rudrappa"
+      value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
+- name: "Sri B. S. Rudrappa"
+  founder: true
   photo: photos/members/15.png
   details:
     - label: "Date of birth"
@@ -353,7 +365,7 @@
     - label: "Position"
       value: "Systems Engineer, Onsemi"
     - label: "Other service"
-      value: "Serving as Treasurer of the executive committee of Guru Shishya Sangama Public Charitable Trust (R), Nyamathi."
+      value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
 - name: "Sri J. Vishweshwarachar"
   photo: photos/members/16.jpeg
   details:
@@ -366,7 +378,7 @@
     - label: "Position"
       value: "Industrialist"
     - label: "Current role"
-      value: "Serving as Treasurer of the executive committee of Guru Shishya Sangama Public Charitable Trust (R), Nyamathi."
+      value: "Member, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
 - name: "Sri D. P. Rajappa"
   photo: photos/members/17.jpeg
   details:
@@ -422,3 +434,29 @@
       value: "Retired college principal"
     - label: "Current role"
       value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
+- name: "Sri Thirthalingappa D."
+  initials: TD
+  founder: true
+  details:
+    - label: "Background"
+      value: "Retired government employee"
+    - label: "Place"
+      value: "Shivamogga"
+    - label: "Role"
+      value: "President, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
+- name: "Sri B. Channabasappa"
+  initials: BC
+  founder: true
+  details:
+    - label: "Background"
+      value: "Retired Assistant Registrar of Co-operative Societies"
+    - label: "Place"
+      value: "Surahonne, Nyamathi"
+- name: "Dr. Jagadish Nuchhin"
+  initials: JN
+  founder: true
+  details:
+    - label: "Background"
+      value: "Government doctor"
+    - label: "Place"
+      value: "Gadag"

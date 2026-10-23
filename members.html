@@ -1,14 +1,66 @@
 ---
 layout: default
-title: "Members"
-description: "Profiles of the members of Guru Shishya Sangama Public Charitable Trust."
+title: "Trustees & Members"
+description: "Office-bearers, founding trustees and members of Guru Shishya Sangama Public Charitable Trust."
 footer: "Nyamathi, Davangere District, Karnataka &mdash; 577223"
 ---
 
-    <h1 class="page-title">Members</h1>
+    <h1 class="page-title">Trustees &amp; Members</h1>
     <p class="lede">
-      Profiles of the members of the Trust &mdash; their education, careers and service.
+      Fifteen founding trustees &mdash; retired government officers, doctors, teachers, farmers,
+      engineers and professionals &mdash; each contributed to the Trust&rsquo;s corpus at its
+      formation in March 2024. Under the deed, the founders are permanent trustees for life.
+      They are joined by members who support the Trust&rsquo;s work.
     </p>
+
+    <h2>Office-bearers</h2>
+    <div class="officers">
+      <div class="officer">
+        <div class="role">President</div>
+        <h3>Sri Thirthalingappa D.</h3>
+        <p>Retired government employee &middot; Shivamogga</p>
+      </div>
+      <div class="officer">
+        <div class="role">Vice-President</div>
+        <h3>Dr. Palaksha G. S.</h3>
+        <p>Retired Medical Superintendent, HAL Hospital &middot; Bengaluru</p>
+      </div>
+      <div class="officer">
+        <div class="role">Treasurer</div>
+        <h3>Sri Shivappa G. Kodikoppa</h3>
+        <p>President, Sadhu Samaja, Nyamathi &middot; Agriculturist</p>
+      </div>
+      <div class="officer">
+        <div class="role">Secretary</div>
+        <h3>Sri Renukaiah B. M.</h3>
+        <p>Tax consultant &middot; Chinnikatte, Nyamathi</p>
+      </div>
+      <div class="officer">
+        <div class="role">Joint Secretary</div>
+        <h3>Sri M. G. Rudrappa Gowda</h3>
+        <p>Agriculturist &middot; Madanabavi, Nyamathi</p>
+      </div>
+    </div>
+
+    <h2>How the Trust is governed</h2>
+    <p>
+      The Trust is administered by a Board of Trustees. The founders are permanent trustees for
+      life; additional honorary trustees may be nominated or co-opted for three-year terms. The
+      President, Vice-President, Treasurer, Secretary and Joint Secretary are elected from among
+      the trustees once every three years, and the Board meets at least once every three months.
+    </p>
+    <p>
+      Bank accounts are operated jointly by the President, Secretary and Treasurer. The Secretary
+      maintains the Trust&rsquo;s minutes, accounts and records.
+    </p>
+
+    <div class="note">
+      <strong>Note.</strong> Office-bearers and governance rules are taken from the registered
+      trust deed, which remains the authoritative record &mdash;
+      <a href="trust-deed.html">download it here</a>. Profiles below were supplied by the members.
+    </div>
+
+    <h2>Profiles</h2>
 
 {% for member in site.data.members %}
     <div class="member">
@@ -18,7 +70,7 @@ footer: "Nyamathi, Davangere District, Karnataka &mdash; 577223"
       <div class="member-photo placeholder">{{ member.initials }}</div>
       {%- endif %}
       <div>
-        <h2>{{ member.name }}</h2>
+        <h2>{{ member.name }}{% if member.founder %} <span class="tag">Founding trustee</span>{% endif %}</h2>
         <div class="table-wrap">
           <table>
             <tbody>

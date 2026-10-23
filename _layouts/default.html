@@ -16,7 +16,7 @@
         <span>Public Charitable Trust</span>
       </a>
       <nav class="site-nav">
-        {%- assign links = "index.html:Home,vision.html:Vision,founders.html:Founders,members.html:Members,activities.html:Activities,trust-deed.html:Trust Deed" | split: "," %}
+        {%- assign links = "index.html:Home,vision.html:Vision,members.html:Members,activities.html:Activities,trust-deed.html:Trust Deed" | split: "," %}
         {%- assign current = page.url | remove_first: "/" | default: "index.html" %}
         {%- for link in links %}
         {%- assign parts = link | split: ":" %}

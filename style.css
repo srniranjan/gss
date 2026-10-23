@@ -261,7 +261,7 @@ th {
   white-space: nowrap;
 }
 
-/* ---------- founders ---------- */
+/* ---------- office-bearers ---------- */
 
 .officers {
   display: grid;
@@ -331,6 +331,21 @@ th {
 
 .member h2 {
   margin: 0 0 0.75rem;
+}
+
+.tag {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  color: #8a6d1f;
+  background: #fdf7e6;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
 .member table {
