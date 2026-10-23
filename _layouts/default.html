@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Noto+Sans+Kannada:wght@500&family=Lora:ital@1&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,18 +30,39 @@
     </div>
   </header>
 
-  <main>
+  <main class="{% if page.home %}home{% else %}page{% endif %}">
 {{ content }}
   </main>
 
   <footer class="site-footer">
-    <div class="footer-inner">
-      <span>&copy; 2026 Guru Shishya Sangama Public Charitable Trust</span>
-      <span>{{ page.footer | default: "Registered 16 March 2024 &middot; Honnali, Karnataka" }}</span>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <h4>{{ site.title }}</h4>
+          <p>A registered public charitable trust working on education, health, sports, art, music and the environment in rural Karnataka.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="vision.html">Vision</a>
+          <a href="members.html">Trustees &amp; Members</a>
+          <a href="activities.html">Activities</a>
+          <a href="trust-deed.html">Trust Deed</a>
+        </div>
+        <div>
+          <h4>Registered office</h4>
+          <p>Nyamathi, Nyamathi Taluk<br>Davangere District &mdash; 577223<br>Karnataka</p>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <span>&copy; 2026 {{ site.title }}</span>
+        <span>Doc. No. HNL-4-00128-2023-24 &middot; Registered 16 March 2024</span>
+      </div>
     </div>
   </footer>
-{% if page.lightbox %}
+
+  <script src="site.js"></script>
+{%- if page.lightbox %}
   <script src="lightbox.js"></script>
-{% endif %}
+{%- endif %}
 </body>
 </html>
