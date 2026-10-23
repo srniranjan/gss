@@ -84,6 +84,24 @@ body {
   border-bottom-color: var(--accent);
 }
 
+@media (max-width: 600px) {
+  .site-nav {
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .site-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .site-nav a {
+    flex-shrink: 0;
+  }
+}
+
 /* ---------- layout ---------- */
 
 main {
