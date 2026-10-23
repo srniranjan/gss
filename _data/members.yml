@@ -1,0 +1,424 @@
+- name: "Dr. G. S. Palaksha"
+  photo: photos/members/01.jpeg
+  details:
+    - label: "Date of birth"
+      value: "15/05/1947"
+    - label: "Address"
+      value: "Bengaluru"
+    - label: "Parents"
+      value: "Late Sri Shekharappa, Late Smt. Basamma"
+    - label: "Spouse and children"
+      value: "Smt. Pushpa Palaksha; Praveen Palaksha, Pradeep Palaksha"
+    - label: "Phone / email"
+      value: "9945152521"
+    - label: "Education"
+      value: "MBBS, Government Medical College, Ballari<br>DPM, Karnataka Medical College, Hubballi &mdash; specialisation in Psychiatry"
+    - label: "Position"
+      value: "Retired psychiatrist. Retired Deputy Chief of Medical Services, HAL Hospital, Bengaluru; now in private practice."
+    - label: "Service"
+      value: |
+        Past President of:
+        <ol>
+          <li>Indian Psychiatric Society, Karnataka</li>
+          <li>Indian Association of Occupational Health, Karnataka</li>
+          <li>Indian Medical Council, Bangalore South East</li>
+          <li>Indian Association of Private Psychiatry, Karnataka</li>
+          <li>HAL Officers Association</li>
+          <li>All India HAL Officers Federation</li>
+        </ol>
+    - label: "Awards"
+      value: |
+        From the Indian Association of Occupational Health:
+        <ol>
+          <li>Mohan Mul Award</li>
+          <li>Anant Ramakrishnan Award</li>
+          <li>HMT Award</li>
+          <li>AMCO Award</li>
+          <li>Silver Jubilee Commemoration Award</li>
+          <li>Golden Jubilee Commemoration Award</li>
+          <li>Platinum Jubilee Commemoration Award</li>
+          <li>L&amp;T Award</li>
+          <li>Sir Ardeshir Dalal Award</li>
+        </ol>
+        From the Indian Psychiatric Society:
+        <ol start="10">
+          <li>Dr. S. S. Jayaram Award</li>
+          <li>Senior Psychiatrist Award</li>
+          <li>Eminent Psychiatrist Award</li>
+        </ol>
+    - label: "Other service"
+      value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
+- name: "Dr. Divakar Murthy"
+  photo: photos/members/02.jpeg
+  details:
+    - label: "Date of birth"
+      value: "26 September 1951"
+    - label: "Address"
+      value: "United States of America"
+    - label: "Parents"
+      value: "Dr. Shekharappa, Basamma"
+    - label: "Spouse and children"
+      value: "Mythili Divakar; Ajay, Vija"
+    - label: "Education"
+      value: "MBBS, Mysore Medical College<br>MD, Albany Medical Center, Albany, New York, USA"
+    - label: "Position"
+      value: "Primary Care Physician (Internist)"
+    - label: "Achievements"
+      value: "8th rank in the university in the first year of medical school. Many publications in American and international medical journals."
+    - label: "Other"
+      value: "Married with three children and two grandchildren. Interests: sports and reading novels."
+- name: "Sri M. G. Rudrappa Gowda"
+  photo: photos/members/03.jpeg
+  details:
+    - label: "Date of birth"
+      value: "16/09/1953"
+    - label: "Address"
+      value: "Bengaluru"
+    - label: "Parents"
+      value: "Smt. Ujjamma, Sri M. G. Veerappa Patel"
+    - label: "Spouse and children"
+      value: "Ratna Gowda; Santosh Gowda, Harsha Gowda"
+    - label: "Phone / email"
+      value: "Rudrappagowda1953@gmail.com"
+    - label: "Education"
+      value: "B.Sc., B.E. (Electronics &amp; Communication)"
+    - label: "Position"
+      value: "Private business"
+    - label: "Service"
+      value: |
+        <ol>
+          <li>Lecturer, Government BDT Engineering College, Davanagere</li>
+          <li>Junior Engineer, MSEB, Bombay</li>
+          <li>Junior Engineer, KPCL, Jog Falls</li>
+          <li>Raichur Thermal Power Plant</li>
+          <li>Airport Electrical Engineer, Saudi Arabia</li>
+          <li>Bangalore International Airport, with Siemens India</li>
+          <li>General Manager, Utilities, Qatar International Airport</li>
+        </ol>
+        Retired in 2021.
+    - label: "Awards"
+      value: "Best Engineer of the Year 1999, Saudi BinLaden Group, Saudi Arabia"
+    - label: "Other service"
+      value: "President, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
+- name: "Sri S. R. Basavarajappa"
+  photo: photos/members/04.jpeg
+  details:
+    - label: "Date of birth"
+      value: "06/09/1954"
+    - label: "Address"
+      value: "Ganjeenahalli, Chatnahalli (PO), Nyamathi Taluk"
+    - label: "Parents"
+      value: "Sri Sogilu Rudrappa, Smt. Veeramma"
+    - label: "Spouse and children"
+      value: "Smt. Jayamma; Manu S. B., Madhu S. B."
+    - label: "Phone / email"
+      value: "9480277028"
+    - label: "Education"
+      value: "M.A. (Kannada), B.Ed., University of Mysore"
+    - label: "Position"
+      value: "Retired lecturer, Ganjeenahalli"
+    - label: "Literary work"
+      value: "Served as editor of Nyamathi Pandit Prabhanna&rsquo;s Kannada&ndash;Kannada dictionary. Author of <em>Halli Jeeva</em> and <em>Shivasiri</em>."
+    - label: "Awards"
+      value: "Best Teacher Award, Department of High School Education"
+    - label: "Other service"
+      value: "Served as an academic resource person for the Department of Education. Trained under the Government of India&rsquo;s Centre for Cultural Resources and Training. Served as President of the Kannada Sahitya Parishat, Honnali Taluk. Has lectured at many seminars. Serving as Vice-President of the executive committee of Guru Shishya Sangama Public Charitable Trust (R), Nyamathi."
+- name: "Sri B. M. Renukaiah"
+  photo: photos/members/05.jpeg
+  details:
+    - label: "Date of birth"
+      value: "01/07/1961"
+    - label: "Address"
+      value: "Chinnikatte Village, Nyamathi Taluk, Davanagere District &mdash; 577225<br>No. 09, Good Earth Enclave, Patel Sanjeevappa Road, off Uttarahalli Road, Kengeri, Bengaluru &mdash; 560060"
+    - label: "Parents"
+      value: "Late Sri B. M. Basappaiah, Smt. Veeramma"
+    - label: "Spouse and children"
+      value: "M. C. Roopa (wife); Trilok B. Malimutt (son); Saakshi (daughter-in-law)"
+    - label: "Phone / email"
+      value: "9880110360<br>renubmit@gmail.com"
+    - label: "Education"
+      value: "B.B.M., CA (Inter)"
+    - label: "Position"
+      value: "Auditor and tax consultant; agriculturist"
+    - label: "Current role"
+      value: "Secretary, Guru Shishya Sangama Public Charitable Trust, Nyamathi"
+- name: "Sri Shivappa Kodikoppa"
+  photo: photos/members/06.jpeg
+  details:
+    - label: "Date of birth"
+      value: "20/08/1955"
+    - label: "Address"
+      value: "Kodikoppa Village, Nyamathi Taluk"
+    - label: "Parents"
+      value: "Sri Halappa, Smt. Basamma"
+    - label: "Spouse and children"
+      value: "Late Yashodhamma; Shilpa, Sheela"
+    - label: "Phone / email"
+      value: "8762935904"
+    - label: "Education"
+      value: "S.S.L.C."
+    - label: "Position"
+      value: "Progressive farmer"
+    - label: "Service"
+      value: "Has served as President of the Sadhu Veerashaiva Samaja and President of the School Development Committee. Now works as a social worker."
+    - label: "Other service"
+      value: "Serving as Treasurer of the executive committee of Guru Shishya Sangama Public Charitable Trust (R), Nyamathi."
+- name: "Sri C. G. Marulasiddappa"
+  initials: CM
+  details:
+    - label: "Date of birth"
+      value: "12/04/1939"
+    - label: "Address"
+      value: "Nyamathi"
+    - label: "Parents"
+      value: "Sri Halappa, Halamma"
+    - label: "Spouse and children"
+      value: "Smt. Basamma; Mahesh Gowda H. M. Patel, Sheela, Shanthakumari"
+    - label: "Education"
+      value: "S.S.L.C."
+    - label: "Position"
+      value: "Businessman; owner of Sri Marulu Siddeshwara Motor Service (lorries)"
+    - label: "Service"
+      value: "Councillor, Nyamathi Town Panchayat"
+    - label: "Other service"
+      value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
+- name: "Dr. S. Mallikarjunappa"
+  photo: photos/members/08.jpeg
+  details:
+    - label: "Date of birth"
+      value: "23/09/1950"
+    - label: "Address"
+      value: "Bengaluru"
+    - label: "Parents"
+      value: "Late Sri Gurushanthappa, Late Smt. Kotturamma"
+    - label: "Spouse and children"
+      value: "Smt. Ambika; Vinay, Ravi"
+    - label: "Phone / email"
+      value: "9448390222"
+    - label: "Education"
+      value: "M.V.Sc., Ph.D."
+    - label: "Position"
+      value: "Dean, Veterinary College, Shivamogga"
+    - label: "Current role"
+      value: "Retired veterinarian, Department of Animal Husbandry, Shivamogga"
+    - label: "Other service"
+      value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
+- name: "Sri K. Maheshwarappa"
+  photo: photos/members/09.jpeg
+  details:
+    - label: "Date of birth"
+      value: "22/07/1956"
+    - label: "Address"
+      value: "Kodachagondanahalli, Nyamathi Taluk, Davanagere District"
+    - label: "Parents"
+      value: "Basappa, Iramma"
+    - label: "Spouse and children"
+      value: "Late Radha; Pramila; Prashant K. M., Jyothi K. M."
+    - label: "Phone / email"
+      value: "9945550038"
+    - label: "Education"
+      value: "Diploma in Metallurgy"
+    - label: "Position"
+      value: "Industrialist"
+    - label: "Service"
+      value: "Rose from Supervisor to Managing Director at Naetek Ferrocastings (P) Ltd, Machenahalli, Shivamogga."
+    - label: "Awards"
+      value: "Global Research Foundation certificate for international excellence"
+    - label: "Other service"
+      value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
+- name: "Sri B. H. Manjappa"
+  photo: photos/members/10.jpeg
+  details:
+    - label: "Date of birth"
+      value: "10/04/1953"
+    - label: "Address"
+      value: "Bidaragadde, Honnali Taluk, Davanagere District &mdash; 577217"
+    - label: "Parents"
+      value: "Dundyappa, Parvathamma"
+    - label: "Spouse and children"
+      value: "Hemalatha K. M.; Harsha B. M., Seema B. M."
+    - label: "Phone / email"
+      value: "9945011822"
+    - label: "Education"
+      value: "M.A. (Economics)"
+    - label: "Position"
+      value: "Retired Additional Registrar of Co-operative Societies; retired Secretary, Co-operative Election Commission"
+    - label: "Service"
+      value: |
+        <ol>
+          <li>Selected as Investigator by the central government&rsquo;s Staff Selection Commission; served 8 months.</li>
+          <li>Selected as Auditor by the Auditor General of India and posted to the BEL audit office, Bengaluru; served 8 months, then resigned on being selected through KPSC as Registrar in the state government. Held various posts and retired as Additional Registrar, then served as Secretary of the Co-operative Election Commission from 2013 to 2016.</li>
+        </ol>
+    - label: "Other service"
+      value: "Srishaila Mallikarjuna Charitable Public Trust, Bidaragadde, Honnali<br>Guru Shishya Sangama Charitable Trust, Nyamathi"
+- name: "Sri M. Omkarappa"
+  photo: photos/members/11.jpeg
+  details:
+    - label: "Date of birth"
+      value: "25/11/1950"
+    - label: "Address"
+      value: "Arabagatte, Honnali Taluk"
+    - label: "Parents"
+      value: "Sri Basavappa, Smt. Gowramma"
+    - label: "Spouse and children"
+      value: "Smt. M. H. Savithramma; A. M. Ganapathi, A. M. Shanmukha"
+    - label: "Phone / email"
+      value: "9632313526"
+    - label: "Education"
+      value: "Primary school teacher training"
+    - label: "Position"
+      value: "Retired head teacher"
+    - label: "Awards"
+      value: "Scouts and Guides Seva Dal"
+    - label: "Other service"
+      value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
+- name: "Sri M. H. Kumar"
+  photo: photos/members/12.jpeg
+  details:
+    - label: "Date of birth"
+      value: "01/05/1950"
+    - label: "Address"
+      value: "Kyathinakoppa, Chinnikatte (PO), Nyamathi Taluk"
+    - label: "Parents"
+      value: "Late Sri Hiriyappa Gowda, Late Smt. Girijamma"
+    - label: "Spouse and children"
+      value: "Smt. Shobha; M. K. Bharath, M. K. Sharath"
+    - label: "Phone / email"
+      value: "9740729325"
+    - label: "Education"
+      value: "B.A."
+    - label: "Position"
+      value: "Director, Agricultural Service Co-operative Society, Chinnikatte Joga"
+    - label: "Service"
+      value: |
+        <ul>
+          <li>President and Director, PLD Bank</li>
+          <li>President, Krishika Samaja, Honnali</li>
+          <li>President, Krishika Samaja, Nyamathi</li>
+          <li>Vice-President, Krishika Samaja, Davanagere</li>
+        </ul>
+    - label: "Other service"
+      value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
+- name: "Sri N. G. Parameshwarappa"
+  photo: photos/members/13.jpeg
+  details:
+    - label: "Date of birth"
+      value: "04/04/1964"
+    - label: "Address"
+      value: "Shikaripura"
+    - label: "Parents"
+      value: "Basavanyappa D., Parvathamma"
+    - label: "Spouse"
+      value: "Sujatha"
+    - label: "Phone / email"
+      value: "9449204734"
+    - label: "Education"
+      value: "LL.B."
+    - label: "Position"
+      value: "Advocate, High Court and Sessions Court"
+    - label: "Other service"
+      value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
+- name: "Sri G. Rajendra"
+  photo: photos/members/14.jpeg
+  details:
+    - label: "Date of birth"
+      value: "04/03/1963"
+    - label: "Address"
+      value: "Shivamogga"
+    - label: "Parents"
+      value: "Late Sri Eshwarappa, Smt. Gowramma, Danihalli"
+    - label: "Spouse and children"
+      value: "Smt. Indira; Smt. Keerthi, Kum. Inchara"
+    - label: "Phone / email"
+      value: "94481441310"
+    - label: "Education"
+      value: "B.E. (Civil)"
+    - label: "Position"
+      value: "Class I contractor"
+    - label: "Other service"
+      value: "Serving as Treasurer of the executive committee of Guru Shishya Sangama Public Charitable Trust (R), Nyamathi."
+- name: "Sri R. S. Rudrappa"
+  photo: photos/members/15.png
+  details:
+    - label: "Date of birth"
+      value: "06/02/1983"
+    - label: "Address"
+      value: "Madanabavi, Nyamathi Taluk"
+    - label: "Parents"
+      value: "Sri Singappa, Smt. Karibasamma"
+    - label: "Spouse and children"
+      value: "Smt. Bhanumathi M. K.; Tanuja (daughter), Kaushik (son)"
+    - label: "Education"
+      value: "B.Tech. in Electronics &amp; Telecommunication Engineering (A.M.I.I. &amp; IETE)<br>Diploma in Electronics &amp; Telecommunication Engineering<br>ITI in Electronics Mechanic"
+    - label: "Position"
+      value: "Systems Engineer, Onsemi"
+    - label: "Other service"
+      value: "Serving as Treasurer of the executive committee of Guru Shishya Sangama Public Charitable Trust (R), Nyamathi."
+- name: "Sri J. Vishweshwarachar"
+  photo: photos/members/16.jpeg
+  details:
+    - label: "Address"
+      value: "No. 47, Rajeev Gandhi Nagar Road, Vishwaneedam Post, Sunkadakatte, Bengaluru &mdash; 560091"
+    - label: "Phone / email"
+      value: "9844172587<br>jvachar@jlengg.net"
+    - label: "Education"
+      value: "B.E. (Mechanical)"
+    - label: "Position"
+      value: "Industrialist"
+    - label: "Current role"
+      value: "Serving as Treasurer of the executive committee of Guru Shishya Sangama Public Charitable Trust (R), Nyamathi."
+- name: "Sri D. P. Rajappa"
+  photo: photos/members/17.jpeg
+  details:
+    - label: "Date of birth"
+      value: "15/08/1950"
+    - label: "Address"
+      value: "Sogilu Village, Nyamathi Taluk"
+    - label: "Parents"
+      value: "Prabhuvappa D., Shankaramma"
+    - label: "Spouse and children"
+      value: "Basamma; Ravi D. R., Manjunatha D. R. (Sub-Inspector, 9535538073; wife Pushpa, daughter Ashvi, son Advik)"
+    - label: "Phone / email"
+      value: "9663597540"
+    - label: "Education"
+      value: "P.U.C."
+    - label: "Position"
+      value: "Agriculturist"
+    - label: "Current role"
+      value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
+- name: "Sri M. Virupakshappa"
+  initials: MV
+  details:
+    - label: "Date of birth"
+      value: "05/06/19456"
+    - label: "Address"
+      value: "Surahonne, Nyamathi"
+    - label: "Parents"
+      value: "Basappa, Sanna Veeramma"
+    - label: "Spouse and children"
+      value: "M. V. Sarojamma; M. V. Nagaveni, M. V. Ambika, M. V. Nagaraja"
+    - label: "Education"
+      value: "S.S.L.C., T.C.H."
+    - label: "Position"
+      value: "Retired head teacher"
+    - label: "Current role"
+      value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
+- name: "Sri D. M. Nagaraj"
+  photo: photos/members/19.jpeg
+  details:
+    - label: "Date of birth"
+      value: "23/02/1946"
+    - label: "Address"
+      value: "No. 208, 2nd Main, Mahalakshmi Layout, Kamalammana Gundi Road, Bengaluru &mdash; 560086"
+    - label: "Parents"
+      value: "Mahadevappa, Basamma"
+    - label: "Spouse and children"
+      value: "Late G. Renuka; Rajesh D. N., Gayathri D. N."
+    - label: "Phone / email"
+      value: "9448656496"
+    - label: "Education"
+      value: "M.A."
+    - label: "Position"
+      value: "Retired college principal"
+    - label: "Current role"
+      value: "Trustee, Guru Shishya Sangama Public Charitable Trust (R), Nyamathi"
