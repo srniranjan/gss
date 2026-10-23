@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <strong>Guru Shishya Sangama</strong>
+        <span>Public Charitable Trust</span>
+      </a>
+      <nav class="site-nav">
+        {%- assign links = "index.html:Home,vision.html:Vision,founders.html:Founders,members.html:Members,activities.html:Activities,trust-deed.html:Trust Deed" | split: "," %}
+        {%- assign current = page.url | remove_first: "/" | default: "index.html" %}
+        {%- for link in links %}
+        {%- assign parts = link | split: ":" %}
+        <a href="{{ parts[0] }}"{% if parts[0] == current %} aria-current="page"{% endif %}>{{ parts[1] }}</a>
+        {%- endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main>
+{{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>&copy; 2026 Guru Shishya Sangama Public Charitable Trust</span>
+      <span>{{ page.footer | default: "Registered 16 March 2024 &middot; Honnali, Karnataka" }}</span>
+    </div>
+  </footer>
+{% if page.lightbox %}
+  <script src="lightbox.js"></script>
+{% endif %}
+</body>
+</html>
