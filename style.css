@@ -84,8 +84,6 @@ img {
 .brand-logo {
   width: 56px;
   height: auto;
-  filter: brightness(1.1) contrast(1.1);
-  mix-blend-mode: multiply;
 }
 
 .brand-text {
@@ -1106,8 +1104,6 @@ figcaption {
 .emblem img {
   width: 100%;
   height: auto;
-  filter: brightness(1.1) contrast(1.1);
-  mix-blend-mode: multiply;
 }
 
 .emblem .motto {
@@ -1323,8 +1319,6 @@ figcaption {
   width: 96px;
   height: auto;
   margin-bottom: 1rem;
-  filter: brightness(1.1) contrast(1.1) invert(1);
-  mix-blend-mode: screen;
 }
 
 .site-footer h4 {
