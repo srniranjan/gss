@@ -55,8 +55,7 @@ img {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(255, 255, 255, 0.94);
-  backdrop-filter: blur(8px);
+  background: #fff;
   transition: box-shadow 0.3s;
 }
 
@@ -930,57 +929,51 @@ figcaption {
   font-size: 0.95rem;
 }
 
-.home .quote {
-  background-color: var(--primary-deep);
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-  color: #fff;
-  text-align: center;
-  padding: 6.5rem 0;
+.emblem {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 3rem;
+  align-items: center;
 }
 
-.quote blockquote {
+.emblem img {
+  width: 100%;
+  height: auto;
+  filter: brightness(1.1) contrast(1.1);
+  mix-blend-mode: multiply;
+}
+
+.emblem .motto {
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
+  line-height: 1.3;
+  color: var(--primary);
+  margin: 0.5rem 0 0.2rem;
+}
+
+.emblem .motto-en {
   font-family: Lora, Georgia, serif;
   font-style: italic;
-  font-size: clamp(1.4rem, 3vw, 2.1rem);
-  line-height: 1.45;
-  max-width: 36ch;
-  margin: 0 auto 1.2rem;
+  font-size: 1.25rem;
+  color: var(--muted);
+  margin: 0 0 1.1rem;
 }
 
-.quote-emblem {
-  display: block;
-  width: 200px;
-  height: auto;
-  margin: 0 auto 1.5rem;
-  filter: brightness(1.1) contrast(1.1) invert(1);
-  mix-blend-mode: screen;
-}
+@media (max-width: 760px) {
+  .emblem {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    justify-items: center;
+    text-align: center;
+  }
 
-.quote .motto {
-  font-size: clamp(1.8rem, 4vw, 2.6rem);
-  color: var(--accent);
-  margin: 0 auto 0.3rem;
-}
+  .emblem img {
+    max-width: 240px;
+  }
 
-.quote blockquote {
-  margin-bottom: 1rem;
-}
-
-.quote-note {
-  max-width: 52ch;
-  margin: 0 auto;
-  opacity: 0.85;
-  font-size: 0.98rem;
-}
-
-.quote cite {
-  font-style: normal;
-  font-size: 0.82rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--accent);
+  .emblem p {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .strip {
