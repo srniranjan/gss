@@ -4,9 +4,28 @@
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
+  const toggle = document.querySelector('.menu-toggle');
+  const setMenu = (open) => {
+    header.classList.toggle('nav-open', open);
+    toggle.setAttribute('aria-expanded', String(open));
+  };
+  toggle.addEventListener('click', () => setMenu(!header.classList.contains('nav-open')));
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') setMenu(false);
+  });
+
   document
     .querySelectorAll('main.page .officer, main.page .member, main.page .activity, main.page .objectives li, main.page .table-wrap')
     .forEach((el) => el.classList.add('reveal'));
+
+  document.querySelectorAll('.copy').forEach((button) => {
+    button.addEventListener('click', () => {
+      navigator.clipboard.writeText(button.dataset.copy).then(() => {
+        button.textContent = 'Copied';
+        setTimeout(() => { button.textContent = 'Copy'; }, 2000);
+      });
+    });
+  });
 
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 

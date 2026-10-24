@@ -29,7 +29,7 @@
           <span>Public Charitable Trust</span>
         </span>
       </a>
-      <nav class="site-nav">
+      <nav class="site-nav" id="site-nav">
         {%- assign links = "index.html:Home,vision.html:Vision,members.html:Members,activities.html:Activities,trust-deed.html:Trust Deed" | split: "," %}
         {%- assign current = page.url | remove_first: "/" | default: "index.html" %}
         {%- for link in links %}
@@ -37,6 +37,12 @@
         <a href="{{ parts[0] }}"{% if parts[0] == current %} aria-current="page"{% endif %}>{{ parts[1] }}</a>
         {%- endfor %}
       </nav>
+      <div class="header-actions">
+        <a class="nav-cta" href="support.html"{% if current == "support.html" %} aria-current="page"{% endif %}>Support Us</a>
+        <button type="button" class="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -58,6 +64,7 @@
           <a href="members.html">Trustees &amp; Members</a>
           <a href="activities.html">Activities</a>
           <a href="trust-deed.html">Trust Deed</a>
+          <a href="support.html">Support Us</a>
         </div>
         <div>
           <h4>Registered office</h4>

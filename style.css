@@ -140,23 +140,148 @@ img {
   color: var(--primary);
 }
 
-@media (max-width: 600px) {
-  .site-nav {
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.nav-cta {
+  padding: 0.4rem 1.05rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+
+.nav-cta:hover,
+.nav-cta[aria-current="page"] {
+  background: var(--primary);
+}
+
+.menu-toggle {
+  display: none;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--primary-deep);
+  transition: transform 0.25s, opacity 0.25s;
+}
+
+.nav-open .menu-toggle span:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.nav-open .menu-toggle span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-open .menu-toggle span:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+@media (min-width: 761px) {
+  .header-inner {
     flex-wrap: nowrap;
-    width: 100%;
-    gap: 1.3rem;
-    padding-bottom: 6px;
-    overflow-x: auto;
-    scrollbar-width: none;
-    -webkit-overflow-scrolling: touch;
   }
 
-  .site-nav::-webkit-scrollbar {
+  .site-nav {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 760px) {
+  .header-inner {
+    padding: 0.6rem 1rem;
+    gap: 0.5rem;
+  }
+
+  .brand {
+    flex: 1 1 0;
+    gap: 0.5rem;
+    min-width: 0;
+  }
+
+  .brand strong {
+    line-height: 1.2;
+  }
+
+  .header-actions {
+    flex: none;
+  }
+
+  .brand-logo {
+    width: 44px;
+  }
+
+  .brand strong {
+    font-size: 0.95rem;
+  }
+
+  .brand-text span {
+    font-size: 0.6rem;
+  }
+
+  .nav-cta {
+    padding: 0.4rem 0.85rem;
+    font-size: 0.85rem;
+  }
+
+  .js .menu-toggle {
+    display: flex;
+  }
+
+  .site-nav {
+    order: 3;
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .js .site-nav {
     display: none;
   }
 
+  .js .nav-open .site-nav {
+    display: flex;
+  }
+
   .site-nav a {
-    flex-shrink: 0;
+    padding: 0.8rem 0.25rem;
+    border-top: 1px solid var(--border);
+    font-size: 1rem;
+  }
+
+  .site-nav a::after {
+    display: none;
+  }
+
+  .site-nav a[aria-current="page"] {
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 380px) {
+  .brand-text span {
+    display: none;
   }
 }
 
@@ -1022,6 +1147,114 @@ figcaption {
 
   .strip {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.home .support-band {
+  background: var(--primary);
+  color: #fff;
+  text-align: center;
+}
+
+.support-band h2 {
+  color: #fff;
+}
+
+.support-band p {
+  margin: 0 auto 1.8rem;
+  max-width: 52ch;
+  opacity: 0.9;
+  font-size: 1.05rem;
+}
+
+/* ---------- support page ---------- */
+
+.bank-card {
+  max-width: 620px;
+  background: var(--card);
+  border-top: 4px solid var(--accent);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-hover);
+  padding: 1.8rem 2rem;
+}
+
+.bank-card dl {
+  margin: 1rem 0 0;
+}
+
+.bank-card dl > div {
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  gap: 1rem;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.bank-card dl > div:last-child {
+  border-bottom: 0;
+}
+
+.bank-card dt {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  padding-top: 0.15rem;
+}
+
+.bank-card dd {
+  margin: 0;
+  font-weight: 500;
+}
+
+.copyable {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.copyable span {
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--primary-deep);
+}
+
+.copy {
+  border: 1px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent-text);
+  border-radius: 999px;
+  padding: 0.2rem 0.8rem;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.copy:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.support-thanks {
+  margin-top: 2rem;
+  font-family: Lora, Georgia, serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--muted);
+}
+
+@media (max-width: 600px) {
+  .bank-card {
+    padding: 1.4rem 1.2rem;
+  }
+
+  .bank-card dl > div {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
   }
 }
 
