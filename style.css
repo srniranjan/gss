@@ -580,6 +580,19 @@ th {
   box-shadow: var(--shadow-hover);
 }
 
+.gallery img:focus {
+  outline: none;
+}
+
+.gallery img:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 3px;
+}
+
+.activity > p {
+  max-width: none;
+}
+
 figure {
   margin: 0;
 }
