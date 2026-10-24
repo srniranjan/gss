@@ -387,6 +387,32 @@ th {
 @media (max-width: 600px) {
   .member {
     grid-template-columns: 1fr;
+    padding: 1.1rem;
+  }
+
+  .member > div {
+    min-width: 0;
+  }
+
+  .member th,
+  .member td {
+    display: block;
+    width: auto;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .member th {
+    border-bottom: 0;
+    padding-bottom: 0.3rem;
+  }
+
+  .member td {
+    padding-top: 0.4rem;
+  }
+
+  .member tr:not(:last-child) td {
+    border-bottom: 1px solid var(--border);
   }
 }
 
