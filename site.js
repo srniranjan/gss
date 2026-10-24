@@ -4,6 +4,13 @@
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
+  const hero = document.querySelector('.hero');
+  if (hero) {
+    new IntersectionObserver(([entry]) => {
+      header.classList.toggle('over-hero', entry.isIntersecting);
+    }, { rootMargin: '-80px 0px 0px 0px', threshold: 0.35 }).observe(hero);
+  }
+
   const toggle = document.querySelector('.menu-toggle');
   const setMenu = (open) => {
     header.classList.toggle('nav-open', open);
